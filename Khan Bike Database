@@ -1,0 +1,18 @@
+-Create a bike database
+
+create table bikes (id integer primary key, model text, quantity integer, price integer, color text);
+insert into bikes values (1,"A", 1, 100, "black");
+insert into bikes values (2,"B", 10, 50, "red");
+insert into bikes values (3,"C", 0, 1000, "blue");
+insert into bikes values (4,"D", 7, 250, "orange");
+insert into bikes values (5,"E", 5, 300, "yellow");
+insert into bikes values (6,"F", 9, 200, "pink");
+insert into bikes values (7,"G", 12,700, "gray");
+insert into bikes values (8,"H", 11, 800, "white");
+insert into bikes values (9,"I", 8, 350, "brown");
+insert into bikes values (10,"J",3, 900, "cream");
+SELECT * FROM bikes;
+
+-Display the database ordered by price
+
+SELECT * FROM bikes ORDER BY price;
